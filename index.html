@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binalbagan Catholic College</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="school-hours">
+                    <i class="fas fa-clock"></i>
+                    <span>School Hours: Monday - Friday | 7:30 AM - 5:00 PM</span>
+                </div>
+                <div class="current-date" id="currentDate">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Monday, May 11, 2026</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-left">
+                    <div class="logo">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="school-name">
+                        <h1>BINALBAGAN CATHOLIC COLLEGE</h1>
+                    </div>
+                </div>
+                <div class="nav-right">
+                    <ul class="nav-menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#teachers">Teachers</a></li>
+                        <li><a href="#departments">Departments</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                        <li><a href="#message" class="btn-highlight">Send a Message</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to Binalbagan Catholic College</h1>
+                <p class="hero-description">A mission-driven institution providing quality Catholic education with excellence in academics, character formation, and service to the community.</p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary">Explore Courses</a>
+                    <a href="#message" class="btn btn-secondary">Send a Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <p>Discover our rich history and commitment to excellence</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our History</h3>
+                    <p>Binalbagan Catholic College has been a beacon of educational excellence in the community for decades. Founded with a vision to provide quality Catholic education, we have nurtured generations of students who have gone on to become leaders in their respective fields.</p>
+                </div>
+                <div class="mission-vision">
+                    <div class="card mission-card">
+                        <i class="fas fa-bullseye"></i>
+                        <h3>Our Mission</h3>
+                        <p>To provide holistic Catholic education that develops morally upright, academically excellent, and socially responsible individuals.</p>
+                    </div>
+                    <div class="card vision-card">
+                        <i class="fas fa-eye"></i>
+                        <h3>Our Vision</h3>
+                        <p>To be a leading Catholic educational institution recognized for excellence in academics, character formation, and community service.</p>
+                    </div>
+                </div>
+                <div class="values">
+                    <h3>Our Core Values</h3>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <i class="fas fa-pray"></i>
+                            <h4>Faith</h4>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-star"></i>
+                            <h4>Excellence</h4>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-hands-helping"></i>
+                            <h4>Service</h4>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Discipline</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Courses</h2>
+                <p>Choose from our diverse academic programs</p>
+            </div>
+            <div class="courses-grid">
+                <a href="#computer-studies" class="card course-card course-link">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p>Prepare for a career in technology with cutting-edge IT skills and knowledge.</p>
+                </a>
+                <a href="#business" class="card course-card course-link">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Business Administration</h3>
+                    <p>Develop essential business skills for leadership and entrepreneurship.</p>
+                </a>
+                <a href="#education" class="card course-card course-link">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Education</h3>
+                    <p>Shape the future by becoming a dedicated and inspiring educator.</p>
+                </a>
+                <a href="#criminal-justice" class="card course-card course-link">
+                    <i class="fas fa-balance-scale"></i>
+                    <h3>Criminology</h3>
+                    <p>Join the forces of justice and public safety with comprehensive criminology education.</p>
+                </a>
+                <a href="#senior-high" class="card course-card course-link">
+                    <i class="fas fa-concierge-bell"></i>
+                    <h3>Hospitality Management</h3>
+                    <p>Excel in the dynamic hospitality and tourism industry.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teachers Section -->
+    <section id="teachers" class="teachers">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Teachers</h2>
+                <p>Meet our dedicated and experienced faculty members</p>
+            </div>
+            <div class="teachers-grid">
+                <div class="card teacher-card">
+                    <div class="teacher-details">
+                        <h3>Dr. Maria Santos</h3>
+                        <p class="teacher-position">Dean</p>
+                        <p class="teacher-department">College of Computer Studies</p>
+                    </div>
+                    <div class="teacher-photo">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+                <div class="card teacher-card">
+                    <div class="teacher-details">
+                        <h3>Prof. John Reyes</h3>
+                        <p class="teacher-position">Department Head</p>
+                        <p class="teacher-department">College of Education</p>
+                    </div>
+                    <div class="teacher-photo">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+                <div class="card teacher-card">
+                    <div class="teacher-details">
+                        <h3>Atty. Ana Cruz</h3>
+                        <p class="teacher-position">Program Coordinator</p>
+                        <p class="teacher-department">College of Criminal Justice</p>
+                    </div>
+                    <div class="teacher-photo">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+                <div class="card teacher-card">
+                    <div class="teacher-details">
+                        <h3>Dr. Roberto Garcia</h3>
+                        <p class="teacher-position">Professor</p>
+                        <p class="teacher-department">College of Business</p>
+                    </div>
+                    <div class="teacher-photo">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+                <div class="card teacher-card">
+                    <div class="teacher-details">
+                        <h3>Ms. Elena Martinez</h3>
+                        <p class="teacher-position">Instructor</p>
+                        <p class="teacher-department">Senior High School</p>
+                    </div>
+                    <div class="teacher-photo">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+                <div class="card teacher-card">
+                    <div class="teacher-details">
+                        <h3>Engr. Carlos Rodriguez</h3>
+                        <p class="teacher-position">Assistant Professor</p>
+                        <p class="teacher-department">College of Computer Studies</p>
+                    </div>
+                    <div class="teacher-photo">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departments" class="departments">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Departments</h2>
+                <p>Explore our academic departments and offerings</p>
+            </div>
+            <div class="departments-hero-cards">
+                <!-- College of Computer Studies -->
+                <div id="computer-studies" class="department-hero-card">
+                    <div class="department-hero-content">
+                        <div class="department-hero-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="department-hero-text">
+                            <h3>College of Computer Studies</h3>
+                            <p class="department-hero-description">Empowering the next generation of tech innovators with cutting-edge programs in software development, network administration, and data science. Our state-of-the-art labs and industry partnerships prepare students for the digital future.</p>
+                            <div class="department-programs">
+                                <h4>Programs Offered:</h4>
+                                <ul>
+                                    <li>Bachelor of Science in Information Technology</li>
+                                    <li>Bachelor of Science in Computer Science</li>
+                                    <li>Associate in Computer Technology</li>
+                                </ul>
+                            </div>
+                            <div class="department-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Modern Computer Labs</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Industry Partnerships</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Internship Programs</span>
+                                </div>
+                            </div>
+                            <a href="#message" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- College of Education -->
+                <div id="education" class="department-hero-card">
+                    <div class="department-hero-content">
+                        <div class="department-hero-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <div class="department-hero-text">
+                            <h3>College of Education</h3>
+                            <p class="department-hero-description">Shaping future educators with comprehensive teacher training programs. We focus on pedagogical excellence, classroom management, and innovative teaching methodologies to create inspiring teachers.</p>
+                            <div class="department-programs">
+                                <h4>Programs Offered:</h4>
+                                <ul>
+                                    <li>Bachelor of Elementary Education</li>
+                                    <li>Bachelor of Secondary Education</li>
+                                    <li>Bachelor of Special Needs Education</li>
+                                </ul>
+                            </div>
+                            <div class="department-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Teaching Demonstrations</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Practice Teaching</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Licensure Exam Review</span>
+                                </div>
+                            </div>
+                            <a href="#message" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- College of Business -->
+                <div id="business" class="department-hero-card">
+                    <div class="department-hero-content">
+                        <div class="department-hero-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="department-hero-text">
+                            <h3>College of Business</h3>
+                            <p class="department-hero-description">Developing business leaders and entrepreneurs with practical skills in management, finance, marketing, and entrepreneurship. Our curriculum combines theory with real-world business applications.</p>
+                            <div class="department-programs">
+                                <h4>Programs Offered:</h4>
+                                <ul>
+                                    <li>Bachelor of Science in Business Administration</li>
+                                    <li>Bachelor of Science in Accountancy</li>
+                                    <li>Bachelor of Science in Entrepreneurship</li>
+                                </ul>
+                            </div>
+                            <div class="department-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Business Incubation</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Industry Seminars</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Case Studies</span>
+                                </div>
+                            </div>
+                            <a href="#message" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- College of Criminal Justice -->
+                <div id="criminal-justice" class="department-hero-card">
+                    <div class="department-hero-content">
+                        <div class="department-hero-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <div class="department-hero-text">
+                            <h3>College of Criminal Justice</h3>
+                            <p class="department-hero-description">Training future law enforcement professionals with comprehensive criminology education. Our program covers criminal investigation, forensic science, and justice administration.</p>
+                            <div class="department-programs">
+                                <h4>Programs Offered:</h4>
+                                <ul>
+                                    <li>Bachelor of Science in Criminology</li>
+                                    <li>Bachelor of Science in Forensic Science</li>
+                                    <li>Associate in Criminal Justice</li>
+                                </ul>
+                            </div>
+                            <div class="department-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Forensic Laboratory</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Police Training</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Field Training</span>
+                                </div>
+                            </div>
+                            <a href="#message" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Senior High School Department -->
+                <div id="senior-high" class="department-hero-card">
+                    <div class="department-hero-content">
+                        <div class="department-hero-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="department-hero-text">
+                            <h3>Senior High School Department</h3>
+                            <p class="department-hero-description">Providing quality senior high school education with various tracks to prepare students for college or immediate employment. We offer specialized programs tailored to student interests and career goals.</p>
+                            <div class="department-programs">
+                                <h4>Tracks Offered:</h4>
+                                <ul>
+                                    <li>STEM (Science, Technology, Engineering, Mathematics)</li>
+                                    <li>ABM (Accountancy, Business, Management)</li>
+                                    <li>HUMSS (Humanities and Social Sciences)</li>
+                                    <li>TVL (Technical-Vocational Livelihood)</li>
+                                </ul>
+                            </div>
+                            <div class="department-features">
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>College Preparation</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Career Guidance</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Skills Training</span>
+                                </div>
+                            </div>
+                            <a href="#message" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for any inquiries</p>
+            </div>
+            <div class="contacts-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Binalbagan, Negros Occidental, Philippines</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(034) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@binalbagancc.edu.ph</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-share-alt"></i>
+                        <div>
+                            <h4>Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.123456789!2d122.8!3d10.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDMwJzAwLjAiTiAxMjLCsDQ4JzAwLjAiRQ!5e0!3m2!1sen!2sph!4v1234567890" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Send a Message Section -->
+    <section id="message" class="message">
+        <div class="container">
+            <div class="section-header">
+                <h2>Send a Message</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            <div class="message-form-container">
+                <form class="message-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        <span class="form-error" id="nameError">Please enter your full name.</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <span class="form-error" id="emailError">Please enter a valid email address.</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="course">Course/Program Selection</label>
+                        <select id="course" name="course" class="form-select">
+                            <option value="">Select a Course/Program</option>
+                            <option value="bsit">Bachelor of Science in Information Technology</option>
+                            <option value="bsba">Bachelor of Science in Business Administration</option>
+                            <option value="bsed">Bachelor of Secondary Education</option>
+                            <option value="beed">Bachelor of Elementary Education</option>
+                            <option value="bscrim">Bachelor of Science in Criminology</option>
+                            <option value="bshm">Bachelor of Science in Hospitality Management</option>
+                            <option value="stem">STEM - Senior High School</option>
+                            <option value="abm">ABM - Senior High School</option>
+                            <option value="humss">HUMSS - Senior High School</option>
+                            <option value="tvl">TVL - Senior High School</option>
+                            <option value="inquiry">General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter subject" required>
+                        <span class="form-error" id="subjectError">Please enter a subject.</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                        <span class="form-error" id="messageError">Please enter your message.</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BINALBAGAN CATHOLIC COLLEGE</h3>
+                    <p>Excellence in Catholic Education</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#contacts">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Binalbagan Catholic College. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Toast -->
+    <div id="successToast" class="success-toast">
+        <i class="fas fa-check-circle"></i>
+        <span>Message Sent Successfully! We'll get back to you shortly.</span>
+    </div>
+
+    <script>
+        // Update current date
+        function updateDate() {
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const today = new Date();
+            document.getElementById('currentDate').innerHTML = '<i class="fas fa-calendar-alt"></i><span>' + today.toLocaleDateString('en-US', options) + '</span>';
+        }
+        updateDate();
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Sticky navigation
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('sticky');
+            } else {
+                navbar.classList.remove('sticky');
+            }
+        });
+
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Global variables
+        let messageForm, successModal;
+
+        // Form submission handling
+        messageForm = document.querySelector('.message-form');
+        successModal = document.getElementById('successModal');
+
+        if (messageForm) {
+            messageForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                const nameVal = document.getElementById('name').value.trim();
+                const emailVal = document.getElementById('email').value.trim();
+                const subjectVal = document.getElementById('subject').value.trim();
+                const messageVal = document.getElementById('message').value.trim();
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                let valid = true;
+
+                document.getElementById('nameError').style.display = nameVal ? 'none' : 'block';
+                if (!nameVal) valid = false;
+
+                document.getElementById('emailError').style.display = (emailVal && emailRegex.test(emailVal)) ? 'none' : 'block';
+                if (!emailVal || !emailRegex.test(emailVal)) valid = false;
+
+                document.getElementById('subjectError').style.display = subjectVal ? 'none' : 'block';
+                if (!subjectVal) valid = false;
+
+                document.getElementById('messageError').style.display = messageVal ? 'none' : 'block';
+                if (!messageVal) valid = false;
+
+                if (valid) {
+                    messageForm.reset();
+                    const toast = document.getElementById('successToast');
+                    toast.classList.add('show');
+                    setTimeout(() => toast.classList.remove('show'), 3500);
+                }
+            });
+        }
+
+
+    </script>
+</body>
+</html>
